@@ -1,5 +1,6 @@
 // 入口模块
 // 路径必须以./或../开头，后缀不写默认为js
+// const math = require('math'); // Error: Cannot find module 'math'
 const math = require('./math');
 console.log(math.sum(1, 2));
 
