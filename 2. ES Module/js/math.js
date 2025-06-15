@@ -4,6 +4,7 @@
 
 export const isOdd = (n) => n % 2 !== 0; */
 
+// 写法二：
 function sum(a, b) {
   return a + b;
 }
