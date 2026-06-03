@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// export var a = 1;\n// export var b = 2;\n// export default 3;\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    a: 1,\n    b: 2,\n    c: 3\n});\n\n//# sourceURL=webpack:///./src/es6a.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// export var a = 1;\n// export var b = 2;\n// export default 3;\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    a: 1,\n    b: 2,\n    c: 3\n});\r\n\n\n//# sourceURL=webpack:///./src/es6a.js?");
 
 /***/ }),
 
@@ -105,7 +105,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// export var a = 1;\n// expo
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// var obj = require(\"./es6a\")\n// console.log(obj.a, obj.b, obj.default)\n\n// import * as obj from \"./commonjsa\"\n// import obj from \"./commonjsa\"\n\n// console.log(obj)\n\n//jquery\n//module.exports = function(){}\n\n// var $ = require(\"jquery\")\n// console.log($)\n\n// import $ from \"jquery\"\n// console.log($);\n\nvar obj = __webpack_require__(/*! ./es6a */ \"./src/es6a.js\")\nconsole.log(obj)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// var obj = require(\"./es6a\")\n// console.log(obj.a, obj.b, obj.default)\n\n// import * as obj from \"./commonjsa\"\n// import obj from \"./commonjsa\"\n\n// console.log(obj)\n\n//jquery\n//module.exports = function(){}\n\n// var $ = require(\"jquery\")\n// console.log($)\n\n// import $ from \"jquery\"\n// console.log($);\n\nvar obj = __webpack_require__(/*! ./es6a */ \"./src/es6a.js\")\nconsole.log(obj)\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

@@ -15,5 +15,5 @@
 // import $ from "jquery"
 // console.log($);
 
-var obj = require("./es6a")
-console.log(obj)
+var obj = require("./es6a");
+console.log(obj); // Object [Module] { default: { a: 1, b: 2, c: 3 } }
