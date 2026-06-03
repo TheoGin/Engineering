@@ -1,0 +1,9 @@
+{
+  "name": "webpack-detailed-course",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "install:all": "pnpm install",
+    "list:packages": "pnpm -r list --depth -1"
+  }
+}
