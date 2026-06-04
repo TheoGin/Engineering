@@ -5,7 +5,7 @@ import $ from "jquery";
 var divContainer = $("#divContainer");
 var divCenter = $("#divCenter");
 
-export default function (n, isPrime) {
+export default function appendNumber(n, isPrime) {
     var span = $("<span>").text(n);
     if (isPrime) {
         var color = radColor();

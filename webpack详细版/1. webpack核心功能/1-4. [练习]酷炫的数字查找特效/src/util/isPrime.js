@@ -4,7 +4,7 @@
  * 6    2，5
  * @param {*} n 
  */
-export default function (n) {
+export default function isPrime(n) {
     if (n < 2) {
         return false;
     }
