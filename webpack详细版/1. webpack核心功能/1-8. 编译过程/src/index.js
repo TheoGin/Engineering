@@ -1,3 +1,4 @@
-console.log("index")
+console.log("index");
 require("./a");
-require("./b")
+require("./b");
+
