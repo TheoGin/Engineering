@@ -2,6 +2,15 @@ module.exports = {
     mode: "development",
     module: {
         rules: [
+            /* {
+                test: /index\.js$/, //正则表达式，匹配模块的路径
+                use: {
+                    loader: './loaders/test-loader.js',
+                    options: {
+                        changeVar: "未知数"
+                    }
+                }
+            }, */
             {
                 test: /index\.js$/, //正则表达式，匹配模块的路径
                 use: ["./loaders/loader1", "./loaders/loader2"] //匹配到了之后，使用哪些加载器
