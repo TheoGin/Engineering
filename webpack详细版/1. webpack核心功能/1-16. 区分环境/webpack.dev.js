@@ -1,5 +1,4 @@
-
 module.exports = {
-    mode: "development",
-    devtool: "source-map"
-}
+  mode: "development",
+  devtool: "source-map",
+};
