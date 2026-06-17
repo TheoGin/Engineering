@@ -1,11 +1,1 @@
-{
-    "name": "jquery",
-    "content": {
-        "./node_modules/jquery/dist/jquery.js": {
-            "id": 1,
-            "buildMeta": {
-                "providedExports": true
-            }
-        }
-    }
-}
+{"name":"jquery","content":{"../../node_modules/.pnpm/jquery@3.7.1/node_modules/jquery/dist/jquery.js":{"id":1,"buildMeta":{"providedExports":true}}}}
