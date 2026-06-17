@@ -1,6 +1,7 @@
 import a from "./a";
 import "./index.css"
 console.log(a);
+console.log(11123);
 
 if (module.hot) {
   // 是否开启了热更新

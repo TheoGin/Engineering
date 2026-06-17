@@ -5,17 +5,17 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     open: true,
-    hot: true
+    hot: true,
   },
-  module:{
-    rules:[
-      {test:/\.css$/, use:["style-loader", "css-loader"]}
-    ]
+  module: {
+    rules: [
+      { test: /\.css$/, use: ["style-loader", "css-loader"] },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html"
-    })
-  ]
+      template: "./public/index.html",
+    }),
+  ],
 };
 
