@@ -81,21 +81,22 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/a.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/a.js":
+/*!******************!*\
+  !*** ./src/a.js ***!
+  \******************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("asdfasdfasfd")
+
+
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=home.26c24.js.map
+//# sourceMappingURL=a.9487d.js.map
