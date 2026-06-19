@@ -1,3 +1,4 @@
+var abc =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -91,9 +92,30 @@
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// require("fs"); // target: "web", 从 node_modules找，发现没找到，就会 Module not found: Error: Can't resolve 'fs'
+let fs = __webpack_require__(/*! fs */ "fs");
+console.log(fs);
+/**
+ * {
+ *   appendFile: [Function: appendFile],
+ *   ......
+ * }
+ */
+
+module.exports = fs;
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-
+module.exports = require("fs");
 
 /***/ })
 
