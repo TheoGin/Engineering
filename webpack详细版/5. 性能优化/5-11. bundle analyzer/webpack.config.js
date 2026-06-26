@@ -6,9 +6,9 @@ module.exports = {
   mode: "production",
   optimization: {
     splitChunks: {
-      chunks: "all"
-    }
+      chunks: "all",
+    },
   },
-  plugins: [new CleanWebpackPlugin(), new WebpackBundleAnalyzer()]
+  plugins: [new CleanWebpackPlugin(), new WebpackBundleAnalyzer()],
 };
 
